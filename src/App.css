@@ -1,0 +1,25 @@
+.upper:hover .inner{
+    transform: translateX(-100%);
+    transition: transform 1s ease;
+}
+
+.upper:hover .inner2{
+    opacity: 0;
+    transition: opacity 1s ease;
+    z-index: -30;
+}
+
+.inner {
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+}
+
+.innerdata{
+    transform: translateX(-100%);
+}
+
+.upper:hover .innerdata{
+    transform: translateX(0%);
+    transition: transform 1s ease;
+}
+
+
