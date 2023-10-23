@@ -6,6 +6,8 @@ import Usestate from './pages/Usestate'
 import Useeffect from './pages/Useeffect'
 import Usememo from './pages/Usememo'
 import Useref from './pages/Useref'
+import Usecontext from './pages/Usecontext'
+import Usecallback from './pages/Usecallback'
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
         <Route path="/useeffect" element={<Useeffect />} />
         <Route path="/usememo" element={<Usememo />} />
         <Route path="/useref" element={<Useref />} />
+        <Route path="/usecontext" element={<Usecontext />} />
+        <Route path="/usecallback" element={<Usecallback />} />
         <Route path="*" element={<h1>404</h1>} />
       </Routes>
     </>
