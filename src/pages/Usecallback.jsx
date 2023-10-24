@@ -1,3 +1,5 @@
+import UCallbackProject from "../projects/useCBProject";
+
 export default function Usecallback() {
 
     return (
@@ -47,10 +49,19 @@ export default function Usecallback() {
                 </div>
                 <div className="">
                     {/* Project Example */}
+                    <p className="text-xl md:text-3xl text-left underline my-3 ms-2 font-bold">Project Example</p>
+                    <UCallbackProject />
                 </div>
                 <div className="">
                     {/* Exercise */}
-                    
+                    <p className="text-xl md:text-3xl text-left underline my-3 ms-2 font-bold">Exercise</p>
+                    <p className="text-left m-4">Create a new project and implement the following:</p>
+                    <ul className="text-left m-4 list-disc">
+                        <li>Declare a function that takes in a number and returns its square root.</li>
+                        <li>Declare a state variable that stores the square root of the number.</li>
+                        <li>Use <code>useCallback</code> to cache the function definition.</li>
+                        <li>Render the square root of the number.</li>
+                    </ul>
                 </div>
                 <div className="mb-4">
                     {/* Further Reading & Reference */}
